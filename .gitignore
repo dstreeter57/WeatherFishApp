@@ -1,0 +1,48 @@
+# Xcode build artifacts
+build/
+DerivedData/
+*.xccheckout
+*.xcscmblueprint
+
+# User-specific Xcode files
+*.xcuserdatad/
+*.xcuserstate
+
+# Schemes
+xcuserdata/
+
+# Swift Package Manager
+Packages/
+.swiftpm/
+
+# CocoaPods (if you ever add it)
+Pods/
+Podfile.lock
+
+# Carthage (if you ever add it)
+Carthage/Build/
+
+# Generated DocC archive
+*.docc
+
+# Archived apps, debug symbols
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS Finder & IDE helpers
+.DS_Store
+.idea/
+*.hmap
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Miscellaneous
+*.moved-aside
+*.swp
+*~.nib
